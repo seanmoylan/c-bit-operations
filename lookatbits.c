@@ -25,13 +25,13 @@ int main(int argc, char *argv[]){
 
   printf("\n\n");
 
-  printf(" 1       = "); printbits( 1     ); printf("\n");
-  printf("(1 << 3) = "); printbits((1 << 3)); printf("\n");
+  printf(" 1               = "); printbits( 1     ); printf("\n");
+  printf("(1 << 3)         = "); printbits((1 << 3)); printf("\n");
  
   printf("\n\n");
 
-  printf(" 99       = "); printbits(99); printf("\n");
-  printf("(99 << 3) = "); printbits((((uint8_t) 99) << ((uint8_t) 3))); printf("\n");
+  printf(" 99              = "); printbits(99); printf("\n");
+  printf("(99 << 3)        = "); printbits((((uint8_t) 99) << ((uint8_t) 3))); printf("\n");
  
   printf("\n\n");
 
